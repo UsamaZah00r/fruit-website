@@ -1,0 +1,97 @@
+@media screen and (max-width:840px){
+    
+
+    .navbar{
+        height: auto;
+    }
+    .menu{
+        justify-content: end;
+        
+        
+    }
+    .menu ul {
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        display: none;
+    
+        
+        
+    }
+
+    #menu{
+        display: block;
+    }
+    
+
+    .hero{
+        flex-direction: column;
+        height: auto;
+
+        margin: 20px;
+
+    }
+
+   
+    
+
+    .heroimg{
+        text-align: center;
+    }
+    
+.eatandenjoy img{
+    width: 75%;
+}
+.popular h1{
+    font-size: 1rem;
+    
+}
+.pcard h2{
+    font-size: 0.7rem;
+}
+.pcard p{
+    font-size: 0.3rem;
+}
+.pcard h3{
+    font-size: 0.4rem;
+}
+}
+
+
+
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+    }
+    .footer-left {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+    .footer-right {
+      flex-basis: 100%;
+    }
+    .footer-right ul {
+      flex-direction: column;
+    }
+    .footer-right li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-container {
+      padding: 10px;
+    }
+    .footer-left {
+      font-size: 14px;
+    }
+    .footer-right li {
+      font-size: 14px;
+    }
+  }
+
+
